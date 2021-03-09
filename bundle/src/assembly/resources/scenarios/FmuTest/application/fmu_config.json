@@ -1,0 +1,39 @@
+{
+  "fmuPathAbs": "C:\\Users\\Theo\\Onedrive\\uni\\WS2020-2021\\dcaiti_Projekt_VuaF\\mosaic\\fmu\\TriangularDriving.fmu",
+  "variables":
+  {
+    "fmuIn":
+    {
+      "time": "",
+      "positionLatitude": "",
+      "positionLongitude": "",
+      "positionX": "",
+      "positionY": "",
+      "speed": "speed",
+      "heading": "",
+      "stopped": "",
+      "longitudinalAcceleration": "",
+      "distanceDriven": "",
+      "slope": "",
+      "minGap" : "",
+      "maxSpeed": "",
+      "maxAcceleration": "",
+      "maxDeceleration": "",
+      "reactionTime": "",
+      "length": "",
+      "currentLane": ""
+    },
+    "fmuOut":
+    {
+      "speedGoal": "speedGoal",
+      "laneChange": "",
+      "stop": "",
+      "resume": "",
+      "paramMaxSpeed": "",
+      "paramMaxAcceleration" : "",
+      "paramMaxDeceleration": "",
+      "paramEmergencyDeceleration": "",
+      "paramMinimumGap": ""
+    }
+  }
+}

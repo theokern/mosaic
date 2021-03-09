@@ -1,0 +1,42 @@
+{
+    "prototypes": [
+        {
+            "name": "Car",
+            "accel": 2.6,
+            "decel": 4.5,
+            "length": 5.00,
+            "maxSpeed": 120.0,
+            "minGap": 2.5,
+            "sigma": 0.5,
+            "speedDeviation": 0.1,
+            "tau": 1
+        }
+    ],
+    "vehicles": [
+        {
+            "startingTime": 1.0,
+            "targetFlow": 1000,
+            "maxNumberVehicles": 50,
+            "route": "2",
+            "lanes": [ 0, 1, 2 ],
+            "types": [
+                {
+                    "name": "Car",
+                    "weight": 0.3
+                },
+                {
+                    "name": "Car",
+                    "weight": 0.3,
+                    "applications": [ "org.eclipse.mosaic.app.fmu.FmuApp('fmu_config.json')" ]
+                },
+                {
+                    "name": "Car",
+                    "weight": 0.3,
+                    "applications": [ "org.eclipse.mosaic.app.fmu.FmuApp('fmu_config2.json')" ]
+                }
+            ]
+        }
+    ]
+}
+
+
